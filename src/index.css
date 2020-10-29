@@ -1,0 +1,169 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  /*main div {
+    margin-bottom: 5px;
+  }*/
+  
+  #menu {
+    display: flex;
+    flex-flow: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+  }
+  
+  #menu .menu-left {
+    flex: 1;
+  }
+  
+  #menu .menu-right {
+    flex: 2;
+  }
+  
+  #menu #new-bookmark-btn {
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  /*#menu button {
+    padding: 0;
+    flex: 1;
+  }
+  
+  #menu select {
+    flex: 1;
+  }*/
+  
+  .bookmark-item {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .bookmark-item .title, .star-rating {
+    flex: 2;
+  }
+  .bookmark-item .expand-btn {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .description-edit-area {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  #description-edit {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .collapse {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+  
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+  }
+  
+  .bookmark-expanded {
+    display: flex;
+    flex-flow: column;
+  }
+  .star-rating {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  .star-rating .star{
+    flex: 1;
+  }
+  
+  .bookmark-expanded .title {
+    flex: 1;
+  }
+  
+  .bookmark-expanded .body {
+    flex: 4;
+  }
+  
+  .star {
+    display: table-cell;
+    vertical-align: middle
+  }
+  
+  form #new-bookmark-top {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  form #new-bookmark-body {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  #new-bookmark-body .description-area {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .icon {
+    color: black;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  .er {
+    color: red;
+  }
+  
+  @media only screen and (min-width: 600px) {
+  
+    body {
+      margin-left: 28%;
+      margin-right: 28%;
+    }
+  
+  }
+  
+  /*a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  
+    text-decoration: none;
+    color: initial;
+  }*/
